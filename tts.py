@@ -33,7 +33,7 @@ def webscrap(x):
 
 choice = 1
 
-while choice == 1:
+while choice != 0:
     choice = int(input(
         "Choose from following:\n"
         "1. TTS a text file from the machine\n"
